@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+html,body{
+    width: 100%;
+    background-color: #f0f2f5;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 100px;
+    display: flex;
+    padding: 0 2%;
+}
+.facebook{
+    width: 100%;
+    display: flex;
+    padding: 0 2%;
+}
+.texto{
+    width: 50%;
+    margin-top: 195px;
+    margin-left:100px;
+}
+
+.texto h1{
+    font-size: 55px;
+    color: #1877f2;
+    font-weight: 780;
+}
+
+.texto h3{
+    margin-top: 10px;
+    line-height: 32px;
+    font-size: 27px;
+    color: #1c1e21;
+    font-weight: 540;
+}
+
+.tela{
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.tela form{
+    width: 90%;
+    background-color: white;
+    text-align: center;
+    margin: 0 2%;
+    padding: 10px 20px;
+    border: 1px solid rgb(244, 244, 244);
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 15px -5px rgba(0,0,0,0.71); 
+    box-shadow: 1px 1px 15px -5px rgba(0,0,0,0.71);
+}
+
+.tela form input{
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+    height: 55px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.tela form input:focus{
+    border: 1px solid #1877f2;
+}
+
+.tela form input[type=submit]{
+    background-color: #1877f2;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.tela form input[type=submit]:hover{
+    background-color: #1d70dc;
+    transition: 0.4s;
+}
+.tela a:nth-last-child(2){
+    display: block;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+   padding:10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.tela a:nth-last-child(2):hover{
+    text-decoration: underline;
+}
+
+.butao button{
+    margin: 20px 0;
+    height: 45px;
+    width: 50%;
+    color: white;
+    cursor: pointer;
+    background-color: #42b72a;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.butao button:hover{
+    background-color: #338c21;
+    transition: 0.4s;
+}
+
+.tela p{
+    max-width: 370px;
+    margin: 30px 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+.tela > p > a{
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.tela > p > a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    width: 100%;
+    background-color: #fff;
+   
+}
+
+.footer{
+    width: 100%;
+    margin: 20px 0;
+    display: block;
+    
+}
+
+.footer a{
+    color:#959595;
+    width: 100%;
+    padding: 0 5px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer button{
+    width: 30px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+@media  screen and (max-width:1000px) {
+    .facebook{
+        display: block;
+        width: 100%;
+    }
+    .texto{
+        display: block;
+        margin: 0 auto;
+        padding: 20px 0;
+        width: 100%;
+    }
+    .texto h1{
+        text-align: center;
+    }
+    .tela{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .tela form{
+        width: 100%;
+    }
+    footer{
+        display: inline-block;
+    }
+   
+}
