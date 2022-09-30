@@ -5,6 +5,6 @@ function entrar(){
         alert('[ERRO] Campos inválidos!');
         return false;
     }else{
-        alert('concectado com sucesso!')
+        alert('Conectado com sucesso!')
     }
 }
